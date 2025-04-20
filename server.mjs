@@ -23,7 +23,7 @@ app.use(cors());
 async function createVectorStore() {
   console.log("Creating new vector store...");
 
-  const directory = "/home/shtlp_0018/Desktop/occam_advisory/scraped_pages";
+  const directory = "scraped_pages";
   const filenames = fs.readdirSync(directory).filter(file => file.endsWith(".txt"));
 
   let docs = [];
