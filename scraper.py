@@ -17,7 +17,7 @@ options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 
 # Ensure the correct binary path is used
-driver_path = '/home/shtlp_0018/Desktop/occam_advisory/chromedriver-linux64/chromedriver'
+driver_path = 'occam_advisory/chromedriver-linux64/chromedriver'
 
 # Launch Selenium WebDriver
 driver = webdriver.Chrome(service=Service(driver_path), options=options)
